@@ -47,6 +47,8 @@
 		E347276C2E4F5DC90067F2B4 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E347276A2E4F5DC90067F2B4 /* SearchViewController.swift */; };
 		E347276D2E4F5DC90067F2B4 /* SearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E347276B2E4F5DC90067F2B4 /* SearchViewController.xib */; };
 		E347276F2E4F5DD70067F2B4 /* SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E347276E2E4F5DD70067F2B4 /* SearchViewModel.swift */; };
+		E34727772E4F649B0067F2B4 /* SwiftMessages in Frameworks */ = {isa = PBXBuildFile; productRef = E34727762E4F649B0067F2B4 /* SwiftMessages */; };
+		E347277C2E4F65750067F2B4 /* AppAlertManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E347277B2E4F65750067F2B4 /* AppAlertManager.swift */; };
 		EF332C281A5F4D3BDB0A0872 /* Pods_thmanyah_task.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE8A85930443AE438DB3E817 /* Pods_thmanyah_task.framework */; };
 /* End PBXBuildFile section */
 
@@ -93,6 +95,7 @@
 		E347276A2E4F5DC90067F2B4 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		E347276B2E4F5DC90067F2B4 /* SearchViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchViewController.xib; sourceTree = "<group>"; };
 		E347276E2E4F5DD70067F2B4 /* SearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewModel.swift; sourceTree = "<group>"; };
+		E347277B2E4F65750067F2B4 /* AppAlertManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppAlertManager.swift; sourceTree = "<group>"; };
 		E3DB7E252E4E5D400008E0FA /* thmanyah_task.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = thmanyah_task.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE8A85930443AE438DB3E817 /* Pods_thmanyah_task.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_thmanyah_task.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -103,6 +106,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E347272B2E4F1DE00067F2B4 /* Moya in Frameworks */,
+				E34727772E4F649B0067F2B4 /* SwiftMessages in Frameworks */,
 				EF332C281A5F4D3BDB0A0872 /* Pods_thmanyah_task.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -209,6 +213,7 @@
 		E347271C2E4F16CB0067F2B4 /* Custom */ = {
 			isa = PBXGroup;
 			children = (
+				E347277A2E4F65520067F2B4 /* AppAlertManager */,
 				E34727442E4F31EB0067F2B4 /* AppTabBar */,
 				E34727432E4F31DD0067F2B4 /* NavigationControllers */,
 			);
@@ -326,6 +331,14 @@
 			path = Search;
 			sourceTree = "<group>";
 		};
+		E347277A2E4F65520067F2B4 /* AppAlertManager */ = {
+			isa = PBXGroup;
+			children = (
+				E347277B2E4F65750067F2B4 /* AppAlertManager.swift */,
+			);
+			path = AppAlertManager;
+			sourceTree = "<group>";
+		};
 		E3DB7E1C2E4E5D400008E0FA = {
 			isa = PBXGroup;
 			children = (
@@ -391,6 +404,7 @@
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
 				E34727292E4F1DDF0067F2B4 /* XCRemoteSwiftPackageReference "Moya" */,
+				E34727752E4F649B0067F2B4 /* XCRemoteSwiftPackageReference "SwiftMessages" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = E3DB7E262E4E5D400008E0FA /* Products */;
@@ -468,6 +482,7 @@
 				E347271B2E4F16870067F2B4 /* Container.swift in Sources */,
 				E347272D2E4F1E150067F2B4 /* HomeService.swift in Sources */,
 				E34727182E4F164C0067F2B4 /* AppManager.swift in Sources */,
+				E347277C2E4F65750067F2B4 /* AppAlertManager.swift in Sources */,
 				E34727622E4F4CF70067F2B4 /* UIColor+App.swift in Sources */,
 				E34727232E4F1C520067F2B4 /* NetworkManager.swift in Sources */,
 				E34727642E4F4D930067F2B4 /* Color+App.swift in Sources */,
@@ -707,6 +722,14 @@
 				minimumVersion = 15.0.3;
 			};
 		};
+		E34727752E4F649B0067F2B4 /* XCRemoteSwiftPackageReference "SwiftMessages" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftKickMobile/SwiftMessages";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.0.1;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -714,6 +737,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = E34727292E4F1DDF0067F2B4 /* XCRemoteSwiftPackageReference "Moya" */;
 			productName = Moya;
+		};
+		E34727762E4F649B0067F2B4 /* SwiftMessages */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E34727752E4F649B0067F2B4 /* XCRemoteSwiftPackageReference "SwiftMessages" */;
+			productName = SwiftMessages;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
