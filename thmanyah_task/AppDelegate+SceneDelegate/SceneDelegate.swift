@@ -22,8 +22,8 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         self.window = UIWindow(windowScene: windowScene)
         AppManager.shared.window = window
         
-        let viewc = Container.Home.getHomeScreen()
-        AppManager.shared.setRootView(viewController: Container.embedVCInNavController(viewc))
+        let appTabBar = AppTabBarController()
+        AppManager.shared.setRootView(viewController: appTabBar)
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {

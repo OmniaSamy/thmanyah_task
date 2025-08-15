@@ -22,7 +22,21 @@ class Container {
         
         class func getHomeScreen() -> UIViewController {
             
-          return ViewController()
+            let viewModel = HomeViewModel()
+            let homeView = HomeView(viewModel: viewModel)
+            let hostingController = UIHostingController(rootView: homeView)
+            return hostingController
+        }
+    }
+    
+    class Search {
+        
+        class func getSearchScreen() -> UIViewController {
+            
+            let viewModel = SearchViewModel()
+            let vc = SearchViewController()
+            vc.viewModel = viewModel
+            return vc
         }
     }
 }

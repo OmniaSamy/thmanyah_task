@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		E34727062E4F14570067F2B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E34726FC2E4F14570067F2B4 /* AppDelegate.swift */; };
 		E34727072E4F14570067F2B4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E34727032E4F14570067F2B4 /* SceneDelegate.swift */; };
-		E34727082E4F14570067F2B4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E34727042E4F14570067F2B4 /* ViewController.swift */; };
 		E34727092E4F14570067F2B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E34726FD2E4F14570067F2B4 /* Assets.xcassets */; };
 		E347270B2E4F14570067F2B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E34727002E4F14570067F2B4 /* LaunchScreen.storyboard */; };
 		E34727132E4F159B0067F2B4 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E34727122E4F159B0067F2B4 /* Colors.xcassets */; };
@@ -30,6 +29,24 @@
 		E347273E2E4F290E0067F2B4 /* SectionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E347273D2E4F290E0067F2B4 /* SectionModel.swift */; };
 		E34727402E4F2E610067F2B4 /* ContentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E347273F2E4F2E610067F2B4 /* ContentModel.swift */; };
 		E34727422E4F2FBC0067F2B4 /* PaginationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E34727412E4F2FBC0067F2B4 /* PaginationModel.swift */; };
+		E34727462E4F45970067F2B4 /* AppTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E34727452E4F45970067F2B4 /* AppTabBarController.swift */; };
+		E34727542E4F49020067F2B4 /* IBMPlexSansArabic-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = E347274E2E4F49020067F2B4 /* IBMPlexSansArabic-Light.otf */; };
+		E34727552E4F49020067F2B4 /* IBMPlexSansArabic-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = E34727502E4F49020067F2B4 /* IBMPlexSansArabic-Regular.otf */; };
+		E34727562E4F49020067F2B4 /* IBMPlexSansArabic-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = E347274C2E4F49020067F2B4 /* IBMPlexSansArabic-Bold.otf */; };
+		E34727572E4F49020067F2B4 /* IBMPlexSansArabic-ExtraLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = E347274D2E4F49020067F2B4 /* IBMPlexSansArabic-ExtraLight.otf */; };
+		E34727582E4F49020067F2B4 /* IBMPlexSansArabic-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = E34727512E4F49020067F2B4 /* IBMPlexSansArabic-SemiBold.otf */; };
+		E34727592E4F49020067F2B4 /* IBMPlexSansArabic-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = E34727532E4F49020067F2B4 /* IBMPlexSansArabic-Thin.otf */; };
+		E347275A2E4F49020067F2B4 /* IBMPlexSansArabic-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = E347274F2E4F49020067F2B4 /* IBMPlexSansArabic-Medium.otf */; };
+		E347275B2E4F49020067F2B4 /* IBMPlexSansArabic-Text.otf in Resources */ = {isa = PBXBuildFile; fileRef = E34727522E4F49020067F2B4 /* IBMPlexSansArabic-Text.otf */; };
+		E347275D2E4F490C0067F2B4 /* AppFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = E347275C2E4F490C0067F2B4 /* AppFont.swift */; };
+		E34727602E4F4BC80067F2B4 /* FontExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E347275F2E4F4BC80067F2B4 /* FontExtension.swift */; };
+		E34727622E4F4CF70067F2B4 /* UIColor+App.swift in Sources */ = {isa = PBXBuildFile; fileRef = E34727612E4F4CF70067F2B4 /* UIColor+App.swift */; };
+		E34727642E4F4D930067F2B4 /* Color+App.swift in Sources */ = {isa = PBXBuildFile; fileRef = E34727632E4F4D930067F2B4 /* Color+App.swift */; };
+		E34727662E4F5DA10067F2B4 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E34727652E4F5DA10067F2B4 /* HomeViewModel.swift */; };
+		E34727682E4F5DB00067F2B4 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E34727672E4F5DB00067F2B4 /* HomeView.swift */; };
+		E347276C2E4F5DC90067F2B4 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E347276A2E4F5DC90067F2B4 /* SearchViewController.swift */; };
+		E347276D2E4F5DC90067F2B4 /* SearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E347276B2E4F5DC90067F2B4 /* SearchViewController.xib */; };
+		E347276F2E4F5DD70067F2B4 /* SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E347276E2E4F5DD70067F2B4 /* SearchViewModel.swift */; };
 		EF332C281A5F4D3BDB0A0872 /* Pods_thmanyah_task.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE8A85930443AE438DB3E817 /* Pods_thmanyah_task.framework */; };
 /* End PBXBuildFile section */
 
@@ -41,7 +58,6 @@
 		E34726FE2E4F14570067F2B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E34726FF2E4F14570067F2B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E34727032E4F14570067F2B4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E34727042E4F14570067F2B4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E34727122E4F159B0067F2B4 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		E34727142E4F15DC0067F2B4 /* AppDelegate+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppDelegate+Extension.swift"; sourceTree = "<group>"; };
 		E34727172E4F164C0067F2B4 /* AppManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppManager.swift; sourceTree = "<group>"; };
@@ -59,6 +75,24 @@
 		E347273D2E4F290E0067F2B4 /* SectionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionModel.swift; sourceTree = "<group>"; };
 		E347273F2E4F2E610067F2B4 /* ContentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentModel.swift; sourceTree = "<group>"; };
 		E34727412E4F2FBC0067F2B4 /* PaginationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaginationModel.swift; sourceTree = "<group>"; };
+		E34727452E4F45970067F2B4 /* AppTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTabBarController.swift; sourceTree = "<group>"; };
+		E347274C2E4F49020067F2B4 /* IBMPlexSansArabic-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IBMPlexSansArabic-Bold.otf"; sourceTree = "<group>"; };
+		E347274D2E4F49020067F2B4 /* IBMPlexSansArabic-ExtraLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IBMPlexSansArabic-ExtraLight.otf"; sourceTree = "<group>"; };
+		E347274E2E4F49020067F2B4 /* IBMPlexSansArabic-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IBMPlexSansArabic-Light.otf"; sourceTree = "<group>"; };
+		E347274F2E4F49020067F2B4 /* IBMPlexSansArabic-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IBMPlexSansArabic-Medium.otf"; sourceTree = "<group>"; };
+		E34727502E4F49020067F2B4 /* IBMPlexSansArabic-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IBMPlexSansArabic-Regular.otf"; sourceTree = "<group>"; };
+		E34727512E4F49020067F2B4 /* IBMPlexSansArabic-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IBMPlexSansArabic-SemiBold.otf"; sourceTree = "<group>"; };
+		E34727522E4F49020067F2B4 /* IBMPlexSansArabic-Text.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IBMPlexSansArabic-Text.otf"; sourceTree = "<group>"; };
+		E34727532E4F49020067F2B4 /* IBMPlexSansArabic-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IBMPlexSansArabic-Thin.otf"; sourceTree = "<group>"; };
+		E347275C2E4F490C0067F2B4 /* AppFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFont.swift; sourceTree = "<group>"; };
+		E347275F2E4F4BC80067F2B4 /* FontExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontExtension.swift; sourceTree = "<group>"; };
+		E34727612E4F4CF70067F2B4 /* UIColor+App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+App.swift"; sourceTree = "<group>"; };
+		E34727632E4F4D930067F2B4 /* Color+App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+App.swift"; sourceTree = "<group>"; };
+		E34727652E4F5DA10067F2B4 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		E34727672E4F5DB00067F2B4 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		E347276A2E4F5DC90067F2B4 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		E347276B2E4F5DC90067F2B4 /* SearchViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchViewController.xib; sourceTree = "<group>"; };
+		E347276E2E4F5DD70067F2B4 /* SearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewModel.swift; sourceTree = "<group>"; };
 		E3DB7E252E4E5D400008E0FA /* thmanyah_task.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = thmanyah_task.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE8A85930443AE438DB3E817 /* Pods_thmanyah_task.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_thmanyah_task.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -105,8 +139,8 @@
 				E347271C2E4F16CB0067F2B4 /* Custom */,
 				E34727212E4F1C320067F2B4 /* NetworkServices */,
 				E34727352E4F210B0067F2B4 /* Models */,
+				E347275E2E4F4BA70067F2B4 /* Extension */,
 				E34727262E4F1C910067F2B4 /* Scenes */,
-				E34727042E4F14570067F2B4 /* ViewController.swift */,
 			);
 			path = thmanyah_task;
 			sourceTree = "<group>";
@@ -132,6 +166,7 @@
 		E347270F2E4F14800067F2B4 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				E347274B2E4F48ED0067F2B4 /* Fonts */,
 				E34727112E4F15830067F2B4 /* Colors */,
 				E34727102E4F15730067F2B4 /* Assets */,
 				E34727302E4F1EA30067F2B4 /* Configurations */,
@@ -174,7 +209,8 @@
 		E347271C2E4F16CB0067F2B4 /* Custom */ = {
 			isa = PBXGroup;
 			children = (
-				E347271D2E4F16D70067F2B4 /* NavigationControllers.swift */,
+				E34727442E4F31EB0067F2B4 /* AppTabBar */,
+				E34727432E4F31DD0067F2B4 /* NavigationControllers */,
 			);
 			path = Custom;
 			sourceTree = "<group>";
@@ -194,6 +230,7 @@
 			isa = PBXGroup;
 			children = (
 				E34727272E4F1C9B0067F2B4 /* Home */,
+				E34727692E4F5DB80067F2B4 /* Search */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
@@ -201,6 +238,8 @@
 		E34727272E4F1C9B0067F2B4 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				E34727672E4F5DB00067F2B4 /* HomeView.swift */,
+				E34727652E4F5DA10067F2B4 /* HomeViewModel.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -233,6 +272,58 @@
 				E34727412E4F2FBC0067F2B4 /* PaginationModel.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		E34727432E4F31DD0067F2B4 /* NavigationControllers */ = {
+			isa = PBXGroup;
+			children = (
+				E347271D2E4F16D70067F2B4 /* NavigationControllers.swift */,
+			);
+			path = NavigationControllers;
+			sourceTree = "<group>";
+		};
+		E34727442E4F31EB0067F2B4 /* AppTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				E34727452E4F45970067F2B4 /* AppTabBarController.swift */,
+			);
+			path = AppTabBar;
+			sourceTree = "<group>";
+		};
+		E347274B2E4F48ED0067F2B4 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				E347274C2E4F49020067F2B4 /* IBMPlexSansArabic-Bold.otf */,
+				E347274D2E4F49020067F2B4 /* IBMPlexSansArabic-ExtraLight.otf */,
+				E347274E2E4F49020067F2B4 /* IBMPlexSansArabic-Light.otf */,
+				E347274F2E4F49020067F2B4 /* IBMPlexSansArabic-Medium.otf */,
+				E34727502E4F49020067F2B4 /* IBMPlexSansArabic-Regular.otf */,
+				E34727512E4F49020067F2B4 /* IBMPlexSansArabic-SemiBold.otf */,
+				E34727522E4F49020067F2B4 /* IBMPlexSansArabic-Text.otf */,
+				E34727532E4F49020067F2B4 /* IBMPlexSansArabic-Thin.otf */,
+				E347275C2E4F490C0067F2B4 /* AppFont.swift */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		E347275E2E4F4BA70067F2B4 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				E347275F2E4F4BC80067F2B4 /* FontExtension.swift */,
+				E34727612E4F4CF70067F2B4 /* UIColor+App.swift */,
+				E34727632E4F4D930067F2B4 /* Color+App.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		E34727692E4F5DB80067F2B4 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				E347276A2E4F5DC90067F2B4 /* SearchViewController.swift */,
+				E347276B2E4F5DC90067F2B4 /* SearchViewController.xib */,
+				E347276E2E4F5DD70067F2B4 /* SearchViewModel.swift */,
+			);
+			path = Search;
 			sourceTree = "<group>";
 		};
 		E3DB7E1C2E4E5D400008E0FA = {
@@ -318,8 +409,17 @@
 			files = (
 				E34727342E4F1ECC0067F2B4 /* AppConfig.xcconfig in Resources */,
 				E34727132E4F159B0067F2B4 /* Colors.xcassets in Resources */,
+				E34727542E4F49020067F2B4 /* IBMPlexSansArabic-Light.otf in Resources */,
+				E34727552E4F49020067F2B4 /* IBMPlexSansArabic-Regular.otf in Resources */,
+				E34727562E4F49020067F2B4 /* IBMPlexSansArabic-Bold.otf in Resources */,
+				E34727572E4F49020067F2B4 /* IBMPlexSansArabic-ExtraLight.otf in Resources */,
+				E34727582E4F49020067F2B4 /* IBMPlexSansArabic-SemiBold.otf in Resources */,
+				E34727592E4F49020067F2B4 /* IBMPlexSansArabic-Thin.otf in Resources */,
+				E347275A2E4F49020067F2B4 /* IBMPlexSansArabic-Medium.otf in Resources */,
+				E347275B2E4F49020067F2B4 /* IBMPlexSansArabic-Text.otf in Resources */,
 				E34727092E4F14570067F2B4 /* Assets.xcassets in Resources */,
 				E347270B2E4F14570067F2B4 /* LaunchScreen.storyboard in Resources */,
+				E347276D2E4F5DC90067F2B4 /* SearchViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,21 +458,29 @@
 				E34727062E4F14570067F2B4 /* AppDelegate.swift in Sources */,
 				E34727322E4F1EBC0067F2B4 /* Environment.swift in Sources */,
 				E34727252E4F1C5F0067F2B4 /* NetworkManager+ParseResponse.swift in Sources */,
+				E34727682E4F5DB00067F2B4 /* HomeView.swift in Sources */,
 				E347273E2E4F290E0067F2B4 /* SectionModel.swift in Sources */,
 				E347273C2E4F22770067F2B4 /* NetworkManager+Home.swift in Sources */,
 				E347271E2E4F16D70067F2B4 /* NavigationControllers.swift in Sources */,
 				E347273A2E4F22310067F2B4 /* NetworkResponse.swift in Sources */,
+				E347276C2E4F5DC90067F2B4 /* SearchViewController.swift in Sources */,
+				E347275D2E4F490C0067F2B4 /* AppFont.swift in Sources */,
 				E347271B2E4F16870067F2B4 /* Container.swift in Sources */,
 				E347272D2E4F1E150067F2B4 /* HomeService.swift in Sources */,
 				E34727182E4F164C0067F2B4 /* AppManager.swift in Sources */,
+				E34727622E4F4CF70067F2B4 /* UIColor+App.swift in Sources */,
 				E34727232E4F1C520067F2B4 /* NetworkManager.swift in Sources */,
+				E34727642E4F4D930067F2B4 /* Color+App.swift in Sources */,
 				E34727072E4F14570067F2B4 /* SceneDelegate.swift in Sources */,
 				E34727402E4F2E610067F2B4 /* ContentModel.swift in Sources */,
+				E34727462E4F45970067F2B4 /* AppTabBarController.swift in Sources */,
 				E34727422E4F2FBC0067F2B4 /* PaginationModel.swift in Sources */,
 				E347272F2E4F1E7D0067F2B4 /* NetworkDefaults.swift in Sources */,
+				E34727662E4F5DA10067F2B4 /* HomeViewModel.swift in Sources */,
 				E34727372E4F213C0067F2B4 /* NetworkError.swift in Sources */,
 				E34727152E4F15DC0067F2B4 /* AppDelegate+Extension.swift in Sources */,
-				E34727082E4F14570067F2B4 /* ViewController.swift in Sources */,
+				E347276F2E4F5DD70067F2B4 /* SearchViewModel.swift in Sources */,
+				E34727602E4F4BC80067F2B4 /* FontExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -2,6 +2,17 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>UIAppFonts</key>
+	<array>
+		<string>IBMPlexSansArabic-Bold</string>
+		<string>IBMPlexSansArabic-ExtraLight</string>
+		<string>IBMPlexSansArabic-Light</string>
+		<string>IBMPlexSansArabic-Medium</string>
+		<string>IBMPlexSansArabic-Regular</string>
+		<string>IBMPlexSansArabic-SemiBold</string>
+		<string>IBMPlexSansArabic-Text</string>
+		<string>IBMPlexSansArabic-Thin</string>
+	</array>
 	<key>HOME_BASE_URL</key>
 	<string>$(HOME_BASE_URL)</string>
 	<key>SEARCH_BASE_URL</key>

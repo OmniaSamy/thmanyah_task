@@ -19,9 +19,7 @@ class AppNavigationController: UINavigationController {
 extension AppNavigationController {
     
     func clearBackBarButtonTitle() {
-        
-    //    self.navigationBar.tintColor = .primaryColor
-        
+                
         UIBarButtonItem.appearance().setTitleTextAttributes([NSAttributedString.Key.foregroundColor: UIColor.clear], for: .normal)
         UIBarButtonItem.appearance().setTitleTextAttributes([NSAttributedString.Key.foregroundColor: UIColor.clear], for: UIControl.State.highlighted)
         
