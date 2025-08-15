@@ -17,6 +17,19 @@
 		E34727182E4F164C0067F2B4 /* AppManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E34727172E4F164C0067F2B4 /* AppManager.swift */; };
 		E347271B2E4F16870067F2B4 /* Container.swift in Sources */ = {isa = PBXBuildFile; fileRef = E347271A2E4F16870067F2B4 /* Container.swift */; };
 		E347271E2E4F16D70067F2B4 /* NavigationControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = E347271D2E4F16D70067F2B4 /* NavigationControllers.swift */; };
+		E34727232E4F1C520067F2B4 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E34727222E4F1C520067F2B4 /* NetworkManager.swift */; };
+		E34727252E4F1C5F0067F2B4 /* NetworkManager+ParseResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = E34727242E4F1C5F0067F2B4 /* NetworkManager+ParseResponse.swift */; };
+		E347272B2E4F1DE00067F2B4 /* Moya in Frameworks */ = {isa = PBXBuildFile; productRef = E347272A2E4F1DE00067F2B4 /* Moya */; };
+		E347272D2E4F1E150067F2B4 /* HomeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E347272C2E4F1E150067F2B4 /* HomeService.swift */; };
+		E347272F2E4F1E7D0067F2B4 /* NetworkDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = E347272E2E4F1E7D0067F2B4 /* NetworkDefaults.swift */; };
+		E34727322E4F1EBC0067F2B4 /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = E34727312E4F1EBC0067F2B4 /* Environment.swift */; };
+		E34727342E4F1ECC0067F2B4 /* AppConfig.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = E34727332E4F1ECC0067F2B4 /* AppConfig.xcconfig */; };
+		E34727372E4F213C0067F2B4 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = E34727362E4F213C0067F2B4 /* NetworkError.swift */; };
+		E347273A2E4F22310067F2B4 /* NetworkResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = E34727392E4F22310067F2B4 /* NetworkResponse.swift */; };
+		E347273C2E4F22770067F2B4 /* NetworkManager+Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = E347273B2E4F22770067F2B4 /* NetworkManager+Home.swift */; };
+		E347273E2E4F290E0067F2B4 /* SectionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E347273D2E4F290E0067F2B4 /* SectionModel.swift */; };
+		E34727402E4F2E610067F2B4 /* ContentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E347273F2E4F2E610067F2B4 /* ContentModel.swift */; };
+		E34727422E4F2FBC0067F2B4 /* PaginationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E34727412E4F2FBC0067F2B4 /* PaginationModel.swift */; };
 		EF332C281A5F4D3BDB0A0872 /* Pods_thmanyah_task.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE8A85930443AE438DB3E817 /* Pods_thmanyah_task.framework */; };
 /* End PBXBuildFile section */
 
@@ -34,6 +47,18 @@
 		E34727172E4F164C0067F2B4 /* AppManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppManager.swift; sourceTree = "<group>"; };
 		E347271A2E4F16870067F2B4 /* Container.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Container.swift; sourceTree = "<group>"; };
 		E347271D2E4F16D70067F2B4 /* NavigationControllers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationControllers.swift; sourceTree = "<group>"; };
+		E34727222E4F1C520067F2B4 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		E34727242E4F1C5F0067F2B4 /* NetworkManager+ParseResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NetworkManager+ParseResponse.swift"; sourceTree = "<group>"; };
+		E347272C2E4F1E150067F2B4 /* HomeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeService.swift; sourceTree = "<group>"; };
+		E347272E2E4F1E7D0067F2B4 /* NetworkDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkDefaults.swift; sourceTree = "<group>"; };
+		E34727312E4F1EBC0067F2B4 /* Environment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
+		E34727332E4F1ECC0067F2B4 /* AppConfig.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = AppConfig.xcconfig; sourceTree = "<group>"; };
+		E34727362E4F213C0067F2B4 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		E34727392E4F22310067F2B4 /* NetworkResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkResponse.swift; sourceTree = "<group>"; };
+		E347273B2E4F22770067F2B4 /* NetworkManager+Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NetworkManager+Home.swift"; sourceTree = "<group>"; };
+		E347273D2E4F290E0067F2B4 /* SectionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionModel.swift; sourceTree = "<group>"; };
+		E347273F2E4F2E610067F2B4 /* ContentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentModel.swift; sourceTree = "<group>"; };
+		E34727412E4F2FBC0067F2B4 /* PaginationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaginationModel.swift; sourceTree = "<group>"; };
 		E3DB7E252E4E5D400008E0FA /* thmanyah_task.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = thmanyah_task.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE8A85930443AE438DB3E817 /* Pods_thmanyah_task.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_thmanyah_task.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -43,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E347272B2E4F1DE00067F2B4 /* Moya in Frameworks */,
 				EF332C281A5F4D3BDB0A0872 /* Pods_thmanyah_task.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -77,6 +103,9 @@
 				E34727162E4F163B0067F2B4 /* Utilities */,
 				E34727192E4F16780067F2B4 /* Services */,
 				E347271C2E4F16CB0067F2B4 /* Custom */,
+				E34727212E4F1C320067F2B4 /* NetworkServices */,
+				E34727352E4F210B0067F2B4 /* Models */,
+				E34727262E4F1C910067F2B4 /* Scenes */,
 				E34727042E4F14570067F2B4 /* ViewController.swift */,
 			);
 			path = thmanyah_task;
@@ -105,6 +134,7 @@
 			children = (
 				E34727112E4F15830067F2B4 /* Colors */,
 				E34727102E4F15730067F2B4 /* Assets */,
+				E34727302E4F1EA30067F2B4 /* Configurations */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -147,6 +177,62 @@
 				E347271D2E4F16D70067F2B4 /* NavigationControllers.swift */,
 			);
 			path = Custom;
+			sourceTree = "<group>";
+		};
+		E34727212E4F1C320067F2B4 /* NetworkServices */ = {
+			isa = PBXGroup;
+			children = (
+				E34727282E4F1CBF0067F2B4 /* Home Service */,
+				E34727222E4F1C520067F2B4 /* NetworkManager.swift */,
+				E34727242E4F1C5F0067F2B4 /* NetworkManager+ParseResponse.swift */,
+				E347272E2E4F1E7D0067F2B4 /* NetworkDefaults.swift */,
+			);
+			path = NetworkServices;
+			sourceTree = "<group>";
+		};
+		E34727262E4F1C910067F2B4 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				E34727272E4F1C9B0067F2B4 /* Home */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		E34727272E4F1C9B0067F2B4 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		E34727282E4F1CBF0067F2B4 /* Home Service */ = {
+			isa = PBXGroup;
+			children = (
+				E347272C2E4F1E150067F2B4 /* HomeService.swift */,
+				E347273B2E4F22770067F2B4 /* NetworkManager+Home.swift */,
+			);
+			path = "Home Service";
+			sourceTree = "<group>";
+		};
+		E34727302E4F1EA30067F2B4 /* Configurations */ = {
+			isa = PBXGroup;
+			children = (
+				E34727312E4F1EBC0067F2B4 /* Environment.swift */,
+				E34727332E4F1ECC0067F2B4 /* AppConfig.xcconfig */,
+			);
+			path = Configurations;
+			sourceTree = "<group>";
+		};
+		E34727352E4F210B0067F2B4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E34727392E4F22310067F2B4 /* NetworkResponse.swift */,
+				E34727362E4F213C0067F2B4 /* NetworkError.swift */,
+				E347273D2E4F290E0067F2B4 /* SectionModel.swift */,
+				E347273F2E4F2E610067F2B4 /* ContentModel.swift */,
+				E34727412E4F2FBC0067F2B4 /* PaginationModel.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 		E3DB7E1C2E4E5D400008E0FA = {
@@ -212,6 +298,9 @@
 			);
 			mainGroup = E3DB7E1C2E4E5D400008E0FA;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				E34727292E4F1DDF0067F2B4 /* XCRemoteSwiftPackageReference "Moya" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = E3DB7E262E4E5D400008E0FA /* Products */;
 			projectDirPath = "";
@@ -227,6 +316,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E34727342E4F1ECC0067F2B4 /* AppConfig.xcconfig in Resources */,
 				E34727132E4F159B0067F2B4 /* Colors.xcassets in Resources */,
 				E34727092E4F14570067F2B4 /* Assets.xcassets in Resources */,
 				E347270B2E4F14570067F2B4 /* LaunchScreen.storyboard in Resources */,
@@ -266,10 +356,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				E34727062E4F14570067F2B4 /* AppDelegate.swift in Sources */,
+				E34727322E4F1EBC0067F2B4 /* Environment.swift in Sources */,
+				E34727252E4F1C5F0067F2B4 /* NetworkManager+ParseResponse.swift in Sources */,
+				E347273E2E4F290E0067F2B4 /* SectionModel.swift in Sources */,
+				E347273C2E4F22770067F2B4 /* NetworkManager+Home.swift in Sources */,
 				E347271E2E4F16D70067F2B4 /* NavigationControllers.swift in Sources */,
+				E347273A2E4F22310067F2B4 /* NetworkResponse.swift in Sources */,
 				E347271B2E4F16870067F2B4 /* Container.swift in Sources */,
+				E347272D2E4F1E150067F2B4 /* HomeService.swift in Sources */,
 				E34727182E4F164C0067F2B4 /* AppManager.swift in Sources */,
+				E34727232E4F1C520067F2B4 /* NetworkManager.swift in Sources */,
 				E34727072E4F14570067F2B4 /* SceneDelegate.swift in Sources */,
+				E34727402E4F2E610067F2B4 /* ContentModel.swift in Sources */,
+				E34727422E4F2FBC0067F2B4 /* PaginationModel.swift in Sources */,
+				E347272F2E4F1E7D0067F2B4 /* NetworkDefaults.swift in Sources */,
+				E34727372E4F213C0067F2B4 /* NetworkError.swift in Sources */,
 				E34727152E4F15DC0067F2B4 /* AppDelegate+Extension.swift in Sources */,
 				E34727082E4F14570067F2B4 /* ViewController.swift in Sources */,
 			);
@@ -347,6 +448,7 @@
 		};
 		E3DB7E3B2E4E5D410008E0FA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E34727332E4F1ECC0067F2B4 /* AppConfig.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -410,6 +512,7 @@
 		};
 		E3DB7E3C2E4E5D410008E0FA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E34727332E4F1ECC0067F2B4 /* AppConfig.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -486,6 +589,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E34727292E4F1DDF0067F2B4 /* XCRemoteSwiftPackageReference "Moya" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Moya/Moya.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 15.0.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E347272A2E4F1DE00067F2B4 /* Moya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E34727292E4F1DDF0067F2B4 /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = Moya;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E3DB7E1D2E4E5D400008E0FA /* Project object */;
 }

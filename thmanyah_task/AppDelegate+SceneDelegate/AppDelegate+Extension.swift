@@ -10,6 +10,9 @@ import Foundation
 extension AppDelegate {
     
     func initNetwork() {
-
+        
+        let defaults = NetworkDefaults(homeBaseURL: Environment.homeBaseURL,
+                                       searchBaseURL: Environment.searchBaseURL)
+        NetworkManager.shared = NetworkManager(config: defaults)
     }
 }
