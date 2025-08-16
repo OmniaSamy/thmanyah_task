@@ -14,15 +14,15 @@ extension Font {
     }
     
     static func extraLight(size: CGFloat) -> Font {
-        .custom("MyCustomFont-Bold", size: size)
+        .custom("IBMPlexSansArabic-ExtraLight", size: size)
     }
     
     static func light(size: CGFloat) -> Font {
-        .custom("MyCustomFont-Regular", size: size)
+        .custom("IBMPlexSansArabic-Light", size: size)
     }
     
     static func medium(size: CGFloat) -> Font {
-        .custom("MyCustomFont-Bold", size: size)
+        .custom("IBMPlexSansArabic-Medium", size: size)
     }
     
     static func regular(size: CGFloat) -> Font {
@@ -30,14 +30,14 @@ extension Font {
     }
     
     static func semiBold(size: CGFloat) -> Font {
-        .custom("MyCustomFont-Bold", size: size)
+        .custom("IBMPlexSansArabic-SemiBold", size: size)
     }
     
     static func text(size: CGFloat) -> Font {
-        .custom("MyCustomFont-Regular", size: size)
+        .custom("IBMPlexSansArabic-Text", size: size)
     }
     
     static func thin(size: CGFloat) -> Font {
-        .custom("MyCustomFont-Bold", size: size)
+        .custom("IBMPlexSansArabic-Thin", size: size)
     }
 }

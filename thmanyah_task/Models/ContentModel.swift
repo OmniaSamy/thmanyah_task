@@ -11,6 +11,7 @@ struct ContentModel: Codable {
     
     var podcastID: String?
     var name: String?
+    var podcastName: String?
     var description: String?
     var avatarURL: String?
     var episodeCount: Int?
@@ -24,6 +25,7 @@ struct ContentModel: Codable {
         
         case podcastID = "podcast_id"
         case name = "name"
+        case podcastName = "podcast_name"
         case description = "description"
         case avatarURL = "avatar_url"
         case episodeCount = "episode_count"
