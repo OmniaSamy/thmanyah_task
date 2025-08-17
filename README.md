@@ -71,7 +71,7 @@ The project is organized into the following groups and layers:
 - Unit tests were added to ensure the stability of the solution:
 
 - Added ViewModel Tests - HomeViewModel.
-- Logic Tests: Check filtering and sectioning logic.
+- Logic Tests: Check content sort logic.
 
 
 ## 🎥 Demo Video
