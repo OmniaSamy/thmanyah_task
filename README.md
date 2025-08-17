@@ -54,7 +54,8 @@ The project is organized into the following groups and layers:
 - Color+App - for use colors in colors catalog from code directly in swiftui screens
 
 #### 🔹Scenes
-- 
+- this contains groups represent each screen in app
+- Home - has custom header, cells files and viewmodel and main screen view 
 
 
 
