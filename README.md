@@ -56,7 +56,11 @@ The project is organized into the following groups and layers:
 #### 🔹Scenes
 - this contains groups represent each screen in app
 - Home Scene
-   - has custom header, cells files and viewmodel and main screen view
+   - custom header group contains header view
+   - cells group contains sections cells
+   - HomeViewModel - responsible for call home api to get data and manage load more and sort func
+   - SectionsRenderTypes - contains sections types that can return from api
+   - HomeView - has section structure and depend on section type call specifc cell view
   
 
 
