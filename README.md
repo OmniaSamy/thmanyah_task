@@ -63,7 +63,7 @@ The project is organized into the following groups and layers:
    - HomeView - has section structure and depend on section type call specifc cell view
   
 #### 🔹Frameworks
-- used two frameworks
+- Used frameworks
    - Moya for handle network layer
    - swiftmessages for show custom error message in app
 
