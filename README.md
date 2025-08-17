@@ -39,8 +39,8 @@ The project is organized into the following groups and layers:
 #### 🔹Custom
 - Loader - has AppLoader to be used in any screen untill data return
 - AppAlertManager - used for show error message alert if api return error or want to show error message to user
-- AppTabBar - has custom tabbar controller using ** UIKit **
-- AppNavigationController - has genric custom navigation controller to be used in app using ** UIKit **
+- AppTabBar - has custom tabbar controller using **UIKit**
+- AppNavigationController - has genric custom navigation controller to be used in app using **UIKit**
 
 #### 🔹NetworkServices
 - has NetworkManager and parse response genric layer all app use same parse response file and same network manager 
@@ -50,7 +50,7 @@ The project is organized into the following groups and layers:
 
 #### 🔹Extension
 - FontExtension - for swiftui to use all custom font directly
-- UIColor+App - for use colors in colors catalog from code directly in uikit screens
+- UIColor+App - for use colors in colors catalog from code directly in UIKit screens
 - Color+App - for use colors in colors catalog from code directly in swiftui screens
 
 #### 🔹Scenes
@@ -62,7 +62,10 @@ The project is organized into the following groups and layers:
    - SectionsRenderTypes - contains sections types that can return from api
    - HomeView - has section structure and depend on section type call specifc cell view
   
-
+#### 🔹Frameworks
+- used two frameworks
+   - Moya for handle network layer
+   - swiftmessages for show custom error message in app
 
 ## 🧪 Unit Tests
 - Unit tests were added to ensure the stability of the solution:
