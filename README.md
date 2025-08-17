@@ -73,6 +73,14 @@ The project is organized into the following groups and layers:
 - Added ViewModel Tests - HomeViewModel.
 - Logic Tests: Check content sort logic.
 
+## Challenges Faced
+
+During implementation, a few challenges were encountered:
+Managing data loading only once when the screen appears (similar to viewDidLoad in UIKit).
+Handling horizontal scrolling inside a section in a way that is memory-efficient.
+Designing a generic custom loader overlay to appear only on the first load of the screen, that can be used in any screen in app.
+Designing a generic custom load more to be used in anay screen in app.
+
 
 ## 🎥 Demo Video
 
