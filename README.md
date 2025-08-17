@@ -89,10 +89,11 @@ During implementation, a few challenges were encountered:
 ## Suggestions for Improvement
 
 For future improvements, the following ideas could enhance the solution:
-Consider using UICollectionView with Compositional Layout (UIKit) for more memory-efficient horizontal scrolling if performance becomes an issue with SwiftUI.
-Add more unit tests to cover edge cases and error handling.
-Integrate local caching (Core Data or Realm) for offline support.
-Improve the UI/UX with animations, accessibility features.
+- Consider using UICollectionView with Compositional Layout (UIKit) for more memory-efficient horizontal scrolling if performance becomes an issue with SwiftUI.
+- Add more unit tests to cover edge cases and error handling.
+- Integrate local caching (Core Data or Realm) for offline support.
+- Improve the UI/UX with animations, suport accessibility features.
+- search mock api return different sections types than home, when user search always show empty section as its not supported type
 
 ##  Demo Video
 
