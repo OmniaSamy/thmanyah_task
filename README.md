@@ -61,6 +61,9 @@ The project is organized into the following groups and layers:
    - HomeViewModel - responsible for call home api to get data and manage load more and sort func
    - SectionsRenderTypes - contains sections types that can return from api
    - HomeView - has section structure and depend on section type call specifc cell view
+- Search Scene
+   - SearchBarView custom search bar
+   - SearchViewModel - handle get search result data and in case user make serach again request old request before send new one 
   
 #### 🔹Frameworks
 - Used frameworks
@@ -76,10 +79,12 @@ The project is organized into the following groups and layers:
 ## Challenges Faced
 
 During implementation, a few challenges were encountered:
-Managing data loading only once when the screen appears (similar to viewDidLoad in UIKit).
-Handling horizontal scrolling inside a section in a way that is memory-efficient.
-Designing a generic custom loader overlay to appear only on the first load of the screen, that can be used in any screen in app.
-Designing a generic custom load more to be used in anay screen in app.
+- Managing data loading only once when the screen appears (similar to viewDidLoad in UIKit).
+- Handling horizontal scrolling inside a section in a way that is memory-efficient.
+- Designing a generic custom loader overlay to appear only on the first load of the screen, that can be used in any screen in app.
+- Designing a generic custom load more to be used in anay screen in app.
+- models with params that can return some time int and sometimes string
+
 
 ## Suggestions for Improvement
 
