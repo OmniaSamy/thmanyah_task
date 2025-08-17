@@ -33,7 +33,6 @@ extension HomeViewModel {
         
         NetworkManager.shared.getHomeList(page: page,
                                           completion: { [weak self] (result: Result<NetworkResponse, NetworkError>, _) in
-            // self?.isLoadingMore = false
             switch result {
             case .success(let data):
                 print("data \(data)")

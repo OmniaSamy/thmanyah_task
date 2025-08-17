@@ -74,9 +74,11 @@ struct HomeView: View {
                                 
                             case .bigSquare:
                                 
-                                ForEach(section.content ?? [], id: \.priority) { item in
-                                    // to be implmented
-                                }
+                                //  ForEach(section.content ?? [], id: \.priority) { item in
+                                // to be implmented
+                                Text("to be implmented")
+                                    .foregroundColor(.yellow)
+                                // }
                                 
                             case .queue:
                                 
@@ -91,7 +93,8 @@ struct HomeView: View {
                                     .background(Color.backgroundColor)
                                 
                             default:
-                                Text("none")
+                                Text("Empty Section")
+                                    .foregroundColor(.yellow)
                             }
                         }.listRowBackground(Color.backgroundColor)
                         

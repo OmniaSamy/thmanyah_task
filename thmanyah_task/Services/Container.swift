@@ -34,9 +34,9 @@ class Container {
         class func getSearchScreen() -> UIViewController {
             
             let viewModel = SearchViewModel()
-            let vc = SearchViewController()
-            vc.viewModel = viewModel
-            return vc
+            let searchView = SearchView(viewModel: viewModel)
+            let hostingController = UIHostingController(rootView: searchView)
+            return hostingController
         }
     }
 }
