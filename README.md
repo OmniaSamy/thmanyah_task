@@ -39,8 +39,8 @@ The project is organized into the following groups and layers:
 #### 🔹Custom
 - Loader - has AppLoader to be used in any screen untill data return
 - AppAlertManager - used for show error message alert if api return error or want to show error message to user
-- AppTabBar - has custom tabbar controller
-- AppNavigationController - has genric custom navigation controller to be used in app
+- AppTabBar - has custom tabbar controller using ** UIKit **
+- AppNavigationController - has genric custom navigation controller to be used in app using ** UIKit **
 
 #### 🔹NetworkServices
 - has NetworkManager and parse response genric layer all app use same parse response file and same network manager 
