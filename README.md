@@ -81,6 +81,13 @@ Handling horizontal scrolling inside a section in a way that is memory-efficient
 Designing a generic custom loader overlay to appear only on the first load of the screen, that can be used in any screen in app.
 Designing a generic custom load more to be used in anay screen in app.
 
+## Suggestions for Improvement
+
+For future improvements, the following ideas could enhance the solution:
+Consider using UICollectionView with Compositional Layout (UIKit) for more memory-efficient horizontal scrolling if performance becomes an issue with SwiftUI.
+Add more unit tests to cover edge cases and error handling.
+Integrate local caching (Core Data or Realm) for offline support.
+Improve the UI/UX with animations, accessibility features, and localization.
 
 ## 🎥 Demo Video
 
