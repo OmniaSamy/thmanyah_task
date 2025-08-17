@@ -49,14 +49,16 @@
 		E34727642E4F4D930067F2B4 /* Color+App.swift in Sources */ = {isa = PBXBuildFile; fileRef = E34727632E4F4D930067F2B4 /* Color+App.swift */; };
 		E34727662E4F5DA10067F2B4 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E34727652E4F5DA10067F2B4 /* HomeViewModel.swift */; };
 		E34727682E4F5DB00067F2B4 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E34727672E4F5DB00067F2B4 /* HomeView.swift */; };
-		E347276C2E4F5DC90067F2B4 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E347276A2E4F5DC90067F2B4 /* SearchViewController.swift */; };
-		E347276D2E4F5DC90067F2B4 /* SearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E347276B2E4F5DC90067F2B4 /* SearchViewController.xib */; };
 		E347276F2E4F5DD70067F2B4 /* SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E347276E2E4F5DD70067F2B4 /* SearchViewModel.swift */; };
 		E34727772E4F649B0067F2B4 /* SwiftMessages in Frameworks */ = {isa = PBXBuildFile; productRef = E34727762E4F649B0067F2B4 /* SwiftMessages */; };
 		E347277C2E4F65750067F2B4 /* AppAlertManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E347277B2E4F65750067F2B4 /* AppAlertManager.swift */; };
 		E34727802E4F98470067F2B4 /* AppLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E347277F2E4F98470067F2B4 /* AppLoader.swift */; };
 		E34727832E4FA8DF0067F2B4 /* SectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E34727822E4FA8DF0067F2B4 /* SectionHeaderView.swift */; };
 		E34727852E506D0A0067F2B4 /* ScreenHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E34727842E506D0A0067F2B4 /* ScreenHeaderView.swift */; };
+		E366D91F2E520EC200300467 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E366D91E2E520EC200300467 /* SearchView.swift */; };
+		E366D9212E52101100300467 /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E366D9202E52101100300467 /* SearchBarView.swift */; };
+		E366D9242E5220B300300467 /* SearchService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E366D9232E5220B300300467 /* SearchService.swift */; };
+		E366D9262E5220C000300467 /* NetworkManager+Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = E366D9252E5220C000300467 /* NetworkManager+Search.swift */; };
 		EF332C281A5F4D3BDB0A0872 /* Pods_thmanyah_task.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE8A85930443AE438DB3E817 /* Pods_thmanyah_task.framework */; };
 /* End PBXBuildFile section */
 
@@ -115,14 +117,16 @@
 		E34727632E4F4D930067F2B4 /* Color+App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+App.swift"; sourceTree = "<group>"; };
 		E34727652E4F5DA10067F2B4 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		E34727672E4F5DB00067F2B4 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
-		E347276A2E4F5DC90067F2B4 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
-		E347276B2E4F5DC90067F2B4 /* SearchViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchViewController.xib; sourceTree = "<group>"; };
 		E347276E2E4F5DD70067F2B4 /* SearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewModel.swift; sourceTree = "<group>"; };
 		E347277B2E4F65750067F2B4 /* AppAlertManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppAlertManager.swift; sourceTree = "<group>"; };
 		E347277F2E4F98470067F2B4 /* AppLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLoader.swift; sourceTree = "<group>"; };
 		E34727822E4FA8DF0067F2B4 /* SectionHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionHeaderView.swift; sourceTree = "<group>"; };
 		E34727842E506D0A0067F2B4 /* ScreenHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenHeaderView.swift; sourceTree = "<group>"; };
 		E366D9132E51B6FA00300467 /* thmanyah_taskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = thmanyah_taskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E366D91E2E520EC200300467 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		E366D9202E52101100300467 /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
+		E366D9232E5220B300300467 /* SearchService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchService.swift; sourceTree = "<group>"; };
+		E366D9252E5220C000300467 /* NetworkManager+Search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NetworkManager+Search.swift"; sourceTree = "<group>"; };
 		E3DB7E252E4E5D400008E0FA /* thmanyah_task.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = thmanyah_task.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE8A85930443AE438DB3E817 /* Pods_thmanyah_task.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_thmanyah_task.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -267,6 +271,7 @@
 		E34727212E4F1C320067F2B4 /* NetworkServices */ = {
 			isa = PBXGroup;
 			children = (
+				E366D9222E52209D00300467 /* Seach Service */,
 				E34727282E4F1CBF0067F2B4 /* Home Service */,
 				E34727222E4F1C520067F2B4 /* NetworkManager.swift */,
 				E34727242E4F1C5F0067F2B4 /* NetworkManager+ParseResponse.swift */,
@@ -371,8 +376,8 @@
 		E34727692E4F5DB80067F2B4 /* Search */ = {
 			isa = PBXGroup;
 			children = (
-				E347276A2E4F5DC90067F2B4 /* SearchViewController.swift */,
-				E347276B2E4F5DC90067F2B4 /* SearchViewController.xib */,
+				E366D9202E52101100300467 /* SearchBarView.swift */,
+				E366D91E2E520EC200300467 /* SearchView.swift */,
 				E347276E2E4F5DD70067F2B4 /* SearchViewModel.swift */,
 			);
 			path = Search;
@@ -411,6 +416,15 @@
 				E34727822E4FA8DF0067F2B4 /* SectionHeaderView.swift */,
 			);
 			path = Headers;
+			sourceTree = "<group>";
+		};
+		E366D9222E52209D00300467 /* Seach Service */ = {
+			isa = PBXGroup;
+			children = (
+				E366D9232E5220B300300467 /* SearchService.swift */,
+				E366D9252E5220C000300467 /* NetworkManager+Search.swift */,
+			);
+			path = "Seach Service";
 			sourceTree = "<group>";
 		};
 		E3DB7E1C2E4E5D400008E0FA = {
@@ -544,7 +558,6 @@
 				E347275B2E4F49020067F2B4 /* IBMPlexSansArabic-Text.otf in Resources */,
 				E34727092E4F14570067F2B4 /* Assets.xcassets in Resources */,
 				E347270B2E4F14570067F2B4 /* LaunchScreen.storyboard in Resources */,
-				E347276D2E4F5DC90067F2B4 /* SearchViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -588,6 +601,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E34727062E4F14570067F2B4 /* AppDelegate.swift in Sources */,
+				E366D9242E5220B300300467 /* SearchService.swift in Sources */,
 				E34727322E4F1EBC0067F2B4 /* Environment.swift in Sources */,
 				E3006B612E5092620015E55B /* QueueCell.swift in Sources */,
 				E34727252E4F1C5F0067F2B4 /* NetworkManager+ParseResponse.swift in Sources */,
@@ -597,9 +611,9 @@
 				E347273C2E4F22770067F2B4 /* NetworkManager+Home.swift in Sources */,
 				E3006B5F2E50856B0015E55B /* ImageLoader.swift in Sources */,
 				E34727802E4F98470067F2B4 /* AppLoader.swift in Sources */,
+				E366D91F2E520EC200300467 /* SearchView.swift in Sources */,
 				E347271E2E4F16D70067F2B4 /* NavigationControllers.swift in Sources */,
 				E347273A2E4F22310067F2B4 /* NetworkResponse.swift in Sources */,
-				E347276C2E4F5DC90067F2B4 /* SearchViewController.swift in Sources */,
 				E347275D2E4F490C0067F2B4 /* AppFont.swift in Sources */,
 				E3006B632E50ACBB0015E55B /* LinesGridCell.swift in Sources */,
 				E347271B2E4F16870067F2B4 /* Container.swift in Sources */,
@@ -612,9 +626,11 @@
 				E34727642E4F4D930067F2B4 /* Color+App.swift in Sources */,
 				E34727072E4F14570067F2B4 /* SceneDelegate.swift in Sources */,
 				E34727402E4F2E610067F2B4 /* ContentModel.swift in Sources */,
+				E366D9262E5220C000300467 /* NetworkManager+Search.swift in Sources */,
 				E34727462E4F45970067F2B4 /* AppTabBarController.swift in Sources */,
 				E34727422E4F2FBC0067F2B4 /* PaginationModel.swift in Sources */,
 				E347272F2E4F1E7D0067F2B4 /* NetworkDefaults.swift in Sources */,
+				E366D9212E52101100300467 /* SearchBarView.swift in Sources */,
 				E34727662E4F5DA10067F2B4 /* HomeViewModel.swift in Sources */,
 				E34727372E4F213C0067F2B4 /* NetworkError.swift in Sources */,
 				E34727152E4F15DC0067F2B4 /* AppDelegate+Extension.swift in Sources */,

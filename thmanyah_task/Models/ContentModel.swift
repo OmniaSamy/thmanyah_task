@@ -9,30 +9,51 @@ import Foundation
 
 struct ContentModel: Codable {
     
-    var podcastID: String?
     var name: String?
     var podcastName: String?
     var description: String?
     var avatarURL: String?
-    var episodeCount: Int?
     var duration: Int?
-    var language: String?
     var priority: Int?
-    var popularityScore: Int?
-    var score: Double?
     
     enum CodingKeys: String, CodingKey {
-        
-        case podcastID = "podcast_id"
-        case name = "name"
+        case name
         case podcastName = "podcast_name"
-        case description = "description"
+        case description
         case avatarURL = "avatar_url"
-        case episodeCount = "episode_count"
-        case duration = "duration"
-        case language = "language"
-        case priority = "priority"
-        case popularityScore = "popularityScore"
-        case score = "score"
+        case duration
+        case priority
+    }
+    
+    init() {}
+    
+    init(from decoder: Decoder) throws {
+        
+        let container = try decoder.container(keyedBy: CodingKeys.self)
+        
+        name = try container.decodeIfPresent(String.self, forKey: .name)
+        podcastName = try container.decodeIfPresent(String.self, forKey: .podcastName)
+        description = try container.decodeIfPresent(String.self, forKey: .description)
+        avatarURL = try container.decodeIfPresent(String.self, forKey: .avatarURL)
+        
+        // priority can be Int or String
+        if let intValue = try? container.decode(Int.self, forKey: .priority) {
+            priority = intValue
+        } else if let stringValue = try? container.decode(String.self, forKey: .priority),
+                  let converted = Int(stringValue) {
+            priority = converted
+        } else {
+            priority = nil
+        }
+        
+        // duration can be Int or String
+        if let intValue = try? container.decode(Int.self, forKey: .duration) {
+            duration = intValue
+        } else if let stringValue = try? container.decode(String.self, forKey: .duration),
+                  let converted = Int(stringValue) {
+            duration = converted
+        } else {
+            duration = nil
+        }
     }
 }
