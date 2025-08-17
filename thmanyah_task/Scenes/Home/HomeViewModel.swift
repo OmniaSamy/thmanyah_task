@@ -12,10 +12,16 @@ class HomeViewModel: ObservableObject {
     var homeResponse: NetworkResponse?
     var homeSectionsList: [SectionModel] = []
     
-    // for show loader untill api back
+    var currentPage: Int = 1
+    
+    // for show loader untill api back in first time user open app
     @Published var isLoading: Bool = false
     
+    @Published var isLoadingMore = false
+
+    
     init() {
+        isLoading = true
         getHomeList(page: 1)
     }
 }
@@ -24,7 +30,7 @@ extension HomeViewModel {
     
     func getHomeList(page: Int) {
         
-        isLoading = true
+       
         NetworkManager.shared.getHomeList(page: page,
                                           completion: { [weak self] (result: Result<NetworkResponse, NetworkError>, _) in
             // self?.isLoadingMore = false
@@ -33,7 +39,7 @@ extension HomeViewModel {
                 print("data \(data)")
                 
                 self?.homeResponse = data
-                self?.homeSectionsList = data.sections ?? []
+                self?.homeSectionsList.append(contentsOf: data.sections ?? [])
                 
             case .failure(let error):
                 print("error \(error)")
@@ -42,34 +48,17 @@ extension HomeViewModel {
             }
             
             self?.isLoading = false
+            self?.isLoadingMore = false
         })
     }
-}
-
-// list sections render types
-enum SectionRenderType {
     
-    case square
-    case linesGrid2
-    case bigSquare
-    case queue
-    case other
-    
-    init(apiValue: String) {
+    func loadMoreIfNeeded() {
         
-        switch apiValue {
-            
-        case "square":
-            self = .square
-        case "2_lines_grid":
-            self = .linesGrid2
-        case "big_square", "big square":
-            self = .bigSquare
-        case "queue":
-            self = .queue
-                        
-        default:
-            self = .other
-        }
+        guard !isLoadingMore, currentPage != self.homeResponse?.pagination?.totalPages else { return }
+        
+        isLoadingMore = true
+        currentPage += 1
+        getHomeList(page: currentPage)
+        
     }
 }

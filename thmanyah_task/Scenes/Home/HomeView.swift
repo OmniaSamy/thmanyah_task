@@ -15,7 +15,7 @@ struct HomeView: View {
     
     var body: some View {
         
-        GeometryReader { geometry in
+        ZStack {
             VStack(spacing: 14) {
                 
                 // header view
@@ -23,8 +23,9 @@ struct HomeView: View {
                 
                 // sections list
                 List {
-                    ForEach(viewModel.homeSectionsList, id: \.orderNumber) { section in
+                    ForEach(viewModel.homeSectionsList.indices, id: \.self) { index in
                         
+                        let section = viewModel.homeSectionsList[index]
                         Section(header: SectionHeaderView(sectionName: section.name, sectionType: section.type)) {
                             
                             switch SectionRenderType(apiValue: section.type ?? "") {
@@ -93,11 +94,25 @@ struct HomeView: View {
                                 Text("none")
                             }
                         }.listRowBackground(Color.backgroundColor)
+                        
+                        // Trigger load more when last section appears
+                            .onAppear {
+                                if index == viewModel.homeSectionsList.count - 1 {
+                                    self.viewModel.loadMoreIfNeeded()
+                                }
+                            }
                     }
                 }
                 .listStyle(GroupedListStyle())
                 .scrollContentBackground(.hidden)
                 
+                // Footer loader - for load more only
+                if viewModel.isLoadingMore {
+                    ProgressView()
+                        .progressViewStyle(CircularProgressViewStyle(tint: .white))
+                        .padding()
+                        .background(Color.clear)
+                }
             }
             .padding(.leading, 6)
             .padding(.trailing, 6)
