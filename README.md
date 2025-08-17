@@ -65,7 +65,7 @@ The project is organized into the following groups and layers:
 - Logic Tests: Check filtering and sectioning logic.
 
 
-## 📸 Screenshots
+## 🎥 Demo Video
 Home Screen
 
 
