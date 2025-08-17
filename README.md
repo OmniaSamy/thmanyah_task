@@ -58,6 +58,12 @@ The project is organized into the following groups and layers:
 - Home - has custom header, cells files and viewmodel and main screen view 
 
 
+## 🧪 Unit Tests
+- Unit tests were added to ensure the stability of the solution:
+
+- Added ViewModel Tests - HomeViewModel.
+- Logic Tests: Check filtering and sectioning logic.
+
 
 
 
