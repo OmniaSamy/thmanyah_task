@@ -18,7 +18,7 @@ class HomeViewModel: ObservableObject {
     @Published var isLoading: Bool = false
     
     @Published var isLoadingMore = false
-
+    
     
     init() {
         isLoading = true
@@ -30,7 +30,7 @@ extension HomeViewModel {
     
     func getHomeList(page: Int) {
         
-       
+        
         NetworkManager.shared.getHomeList(page: page,
                                           completion: { [weak self] (result: Result<NetworkResponse, NetworkError>, _) in
             // self?.isLoadingMore = false
@@ -40,6 +40,7 @@ extension HomeViewModel {
                 
                 self?.homeResponse = data
                 self?.homeSectionsList.append(contentsOf: data.sections ?? [])
+                self?.sortContentList()
                 
             case .failure(let error):
                 print("error \(error)")
@@ -60,5 +61,14 @@ extension HomeViewModel {
         currentPage += 1
         getHomeList(page: currentPage)
         
+    }
+    
+    func sortContentList() {
+        
+        homeSectionsList = homeSectionsList.map { section in
+            var newSection = section
+            newSection.content = section.content?.sorted { ($0.priority ?? 0) < ($1.priority ?? 0) }
+            return newSection
+        }
     }
 }
