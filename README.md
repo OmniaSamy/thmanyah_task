@@ -91,8 +91,7 @@ Improve the UI/UX with animations, accessibility features, and localization.
 
 ##  Demo Video
 
-https://github.com/user-attachments/assets/49ac56e6-dd49-4644-9ceb-2a49890fe415
-
+https://github.com/user-attachments/assets/bdea4f4a-cd66-4a6a-8758-45b149273bcc
 
 
 
