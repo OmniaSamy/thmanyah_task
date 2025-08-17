@@ -1,0 +1,12 @@
+//
+//  AppConfig.xcconfig
+//  thmanyah_task
+//
+//  Created by Omnia Samy on 15/08/2025.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://developer.apple.com/documentation/xcode/adding-a-build-configuration-file-to-your-project
+
+HOME_BASE_URL = api-v2-b2sit6oh3a-uc.a.run.app
+SEARCH_BASE_URL = mock.apidog.com/m1/735111-711675-default
