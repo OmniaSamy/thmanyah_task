@@ -55,7 +55,9 @@ The project is organized into the following groups and layers:
 
 #### 🔹Scenes
 - this contains groups represent each screen in app
-- Home - has custom header, cells files and viewmodel and main screen view 
+- Home Scene
+   - has custom header, cells files and viewmodel and main screen view
+  
 
 
 ## 🧪 Unit Tests
@@ -66,8 +68,6 @@ The project is organized into the following groups and layers:
 
 
 ## 🎥 Demo Video
-Home Screen
-
 
 https://github.com/user-attachments/assets/49ac56e6-dd49-4644-9ceb-2a49890fe415
 
