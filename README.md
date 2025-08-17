@@ -69,6 +69,9 @@ The project is organized into the following groups and layers:
 Home Screen
 
 
+https://github.com/user-attachments/assets/49ac56e6-dd49-4644-9ceb-2a49890fe415
+
+
 
 
 
