@@ -1,5 +1,5 @@
 # 📱 Podcast App
-## 📝 Solution Overview
+##  Solution Overview
 
 This project was built using **SwiftUI** & **UIKit** with **MVVM architecture**.
 
@@ -14,7 +14,7 @@ The UI is structured into sections with horizontally scrollable items for effici
 Reusable SwiftUI views are used for cells, headers, and shared components.
 custom component added for generic parts in app.
 
-## 📂 Project Structure
+##  Project Structure
 The project is organized into the following groups and layers:
 
 #### 🔹AppDelegate+SceneDelegate
@@ -67,7 +67,7 @@ The project is organized into the following groups and layers:
    - Moya for handle network layer
    - swiftmessages for show custom error message in app
 
-## 🧪 Unit Tests
+##  Unit Tests
 - Unit tests were added to ensure the stability of the solution:
 
 - Added ViewModel Tests - HomeViewModel.
@@ -89,7 +89,7 @@ Add more unit tests to cover edge cases and error handling.
 Integrate local caching (Core Data or Realm) for offline support.
 Improve the UI/UX with animations, accessibility features, and localization.
 
-## 🎥 Demo Video
+##  Demo Video
 
 https://github.com/user-attachments/assets/49ac56e6-dd49-4644-9ceb-2a49890fe415
 
